@@ -6,8 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException;
-public class first_build {
-	
+public class first_build { 
+
 	public static void main(String[] args) throws IOException{
 		/*
 		String[] DAYS_OF_WEEK = {"SUN","MON","TUE","WED","THU","FRI","SAT"};
@@ -15,13 +15,13 @@ public class first_build {
 								   "JUL","AUG","SEP","OCT","NOV","DEC"};
 		int day
 		;*/
-		/* 
+		/*
 		 * first draft didnt append
-		 * 
+		 *
 		Scanner scan = new Scanner(System.in);
 		System.out.println("please enter work day info (EX: THR MAR 23 2017 7.5hrs)");
 		String info = scan.nextLine();
-		
+
 		String filename = "/Users/darnellbradfordjr/Desktop/output.txt";
 		double hours;
 		try {
@@ -37,14 +37,14 @@ public class first_build {
 		FileWriter f = new FileWriter(filename,true);
 		BufferedWriter buffer = new BufferedWriter(f);
 		PrintWriter p = new PrintWriter(buffer);
-		
+
 		Scanner scan = new Scanner(System.in);
 		System.out.println("please enter work day info (EX: THR MAR 23 2017 7.5hrs)");
 		String info = scan.nextLine();
-		
+
 		p.print(info+"\n");
 		p.close();
 	}
-		
+
 
 }
